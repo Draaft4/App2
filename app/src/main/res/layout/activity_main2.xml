@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uets.draaft.app2.Main2Activity">
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:background="@drawable/gano"
+        />
+
+    <Button
+        android:id="@+id/bs"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:text="Salir"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:text="GANASTE!"
+        android:textSize="50dp"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#FFF"
+        />
+
+</RelativeLayout>
